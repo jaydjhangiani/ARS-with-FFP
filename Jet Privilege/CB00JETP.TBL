@@ -1,0 +1,20 @@
+CREATE TABLE tb_jt_prvlg
+(
+   jp_id_v       VARCHAR2 (20),
+   jp_pss_fnm_v      VARCHAR2 (30),
+   jp_pss_lnm_v varchar2(30),   
+   jp_pss_cty_v      VARCHAR2 (20), 
+   jp_pss_grd_v     VARCHAR2 (10),
+   jp_pss_Pnts_n    NUMBER,
+   jp_pss_upgrd_v   VARCHAR2 (100)
+);
+
+SELECT * FROM tb_jt_prvlg;
+insert into tb_jt_prvlg values('JP_001','JAY','JHANGIANI','BENGALURU','PLATINUM',313200,'');
+insert into tb_jt_prvlg values('JP_002','SHRAVAN','AHUJA','MUMBAI','GOLD',201000,'');
+insert into tb_jt_prvlg values('JP_003','RAHUL','PAREKH','AHEMDABAD','BLUE',37000,'');
+insert into tb_jt_prvlg values('JP_004','MADHAV','PATHAK','KOLKATA','BLUE',35000,'');
+insert into tb_jt_prvlg values('JP_005','SANGEETA','JHANGINAI','PARIS','PLATINUM',941500,'');
+insert into tb_jt_prvlg values('JP_006','DILIP','JHANGINAI','DOHA','GOLD',110000,'');
+
+drop table tb_jt_prvlg;
