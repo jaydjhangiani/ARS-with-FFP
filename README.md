@@ -1,4 +1,4 @@
-# Airline-Reservation-System-with-Frequent-Flyer-Program
+# Airline Reservation System with Frequent Flyer Program
 Creation of table for JP members with all their details for upgrades and preference of seats.
 
 Procedure for :
